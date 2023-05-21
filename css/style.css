@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+/* estructura */
+html{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin: 0 auto;  
+}
+.row {
+    content: "";
+    clear: both;
+    display: flex;
+}
+.fl{
+    display: block;
+    clear: both;
+}
+.column-2{
+    width: 100%;
+    text-align: center;
+}
+.column-4{
+    text-align: center;
+    width: 25%;
+    float: left;
+}
+.column-3{
+    width: 50%;
+    float: left;
+    height: 100%;
+    padding: 100px;
+}
+.column-i{
+    width: 50%;
+    float: left;
+    height: 100%;
+    margin: 90px;
+    text-align: center;
+}
+.fotp{
+    width: 50%;
+    float: left;
+}
+/* Estilos de la estructura */
+header{
+    background-image: url(../img/banner-2.jpg);
+    height: 100vh;
+    padding: 400px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+footer{
+    background-color: black;
+    color: white; 
+    height: 100px;  
+    padding: 50px;
+}
+.col4{
+    background-color: rgb(140, 255, 201);
+}
+#fl1{
+    background-color: blue;
+    height: 100%;
+    padding: 80px;
+}
+/* Estilos de imagenes */
+img{
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.se4{
+    width: 100%;
+}
+/* Letras */
+h1{
+    font-size: 70px;
+    text-align: center
+}
+h2{
+    font-size: 60px;
+    margin: 0;
+}
+.h2b{
+    font-size: 80px;
+}
+h3{
+    font-size: 40px;
+}
+p{
+    font-size: 16px;
+}
+.pcf{
+    padding-left: 100px;
+}
+.h2c{
+    font-size: 80px;
+}
+@media screen and (max-width:700px) {
+    header{
+        height: 100vh;
+        padding: 100px;
+    }
+    footer{
+        height: 200px;  
+        padding: 0px;
+    }
+    .column-4{
+        width: 50%;
+    }
+    .row {
+        flex-wrap: wrap;
+    }
+    .fl{
+        width: 100%;
+    }
+    .column-2{
+        width: 100%;
+        text-align: center;
+    }
+    .column-3{
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 30px;
+        height: 100%;
+    }
+    .fotp{
+        width: 100%;
+        float: left;
+    }
+    .column-i{
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+    }
+    #fl1{
+        padding: 0px;
+    }
+    .h2b{
+        font-size: 70px;
+    }
+    .h2c{
+        font-size: 50px;
+    }
+    }

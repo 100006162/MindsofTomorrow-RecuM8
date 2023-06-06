@@ -1,47 +1,10 @@
+/* Insertamos el script de google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-/* estructura */
+/* Añadimos el estilo de letra */
 html{
     font-family: 'Poppins', sans-serif;
 }
-body{
-    margin: 0 auto;  
-}
-.row {
-    content: "";
-    clear: both;
-    display: flex;
-}
-.fl{
-    display: block;
-    clear: both;
-}
-.column-2{
-    width: 100%;
-    text-align: center;
-}
-.column-4{
-    text-align: center;
-    width: 25%;
-    float: left;
-}
-.column-3{
-    width: 50%;
-    float: left;
-    height: 100%;
-    padding: 100px;
-}
-.column-i{
-    width: 50%;
-    float: left;
-    height: 100%;
-    margin: 90px;
-    text-align: center;
-}
-.fotp{
-    width: 50%;
-    float: left;
-}
-/* Estilos de la estructura */
+/* Añadimos el estilo del encabezado */
 header{
     background-image: url(../img/banner-2.jpg);
     height: 100vh;
@@ -50,54 +13,113 @@ header{
     background-repeat:no-repeat;
     background-position:center center;
 }
+/* Empieza la estructura */
+body{
+    margin: 0 auto;  
+}
+/* Estilo de la primera fila */
+.row {
+    content: "";
+    clear: both;
+    display: flex;
+}
+/* Estilo de la segunda fila */
+.fl{
+    display: block;
+    clear: both;
+}
+/* Estilo de las columnas que se dividen en dos */
+.column-2{
+    width: 100%;
+    text-align: center;
+}
+/* Estilo de las columnas que se dividen en cuatro */
+.column-4{
+    text-align: center;
+    width: 25%;
+    float: left;
+}
+/* Añadimos un estilo para dar un color de fondo */
+.col4{
+    background-color: rgb(140, 255, 201);
+}
+/* Estilo de las columnas que se dividen en tres */
+.column-3{
+    width: 50%;
+    float: left;
+    height: 100%;
+    padding: 100px;
+}
+/* Estilo de las columnas que se dividen en dos */
+.column-i{
+    width: 50%;
+    float: left;
+    height: 100%;
+    margin: 90px;
+    text-align: center;
+}
+/* Estilo del Footer */
+.fotp{
+    width: 50%;
+    float: left;
+}
+
+/* Añadimos el estilo del pie de pagina */
 footer{
     background-color: black;
     color: white; 
     height: 100px;  
     padding: 50px;
 }
-.col4{
-    background-color: rgb(140, 255, 201);
-}
+
+/* Añadimos estilo a la ultima fila */
 #fl1{
     background-color: blue;
     height: 100%;
     padding: 80px;
 }
-/* Estilos de imagenes */
+/* Añadimos estilos a las imagenes */
 img{
     height: 100%;
     width: 80%;
     margin: 0 auto;
     text-align: center;
 }
+/* Añadimos estilos a las imagenes de la cuarta fila */
 .se4{
     width: 100%;
 }
-/* Letras */
+/* Añadimos estilos a los titulos */
 h1{
     font-size: 70px;
     text-align: center
 }
+/* Añadimos estilos a los titulos */
 h2{
     font-size: 60px;
     margin: 0;
 }
+/* Añadimos estilos a los titulos b */
 .h2b{
     font-size: 80px;
 }
+/* Añadimos estilos a los titulos */
 h3{
     font-size: 40px;
 }
+/* Añadimos estilos a los parrafos */
 p{
     font-size: 16px;
 }
+/* Añadimos estilo de padding */
 .pcf{
     padding-left: 100px;
 }
+/* Añadimos estilos a los titulos c */
 .h2c{
     font-size: 80px;
 }
+/* Empiezan las media query */
 @media screen and (max-width:700px) {
     header{
         height: 100vh;
@@ -144,4 +166,7 @@ p{
     .h2c{
         font-size: 50px;
     }
+    p {
+        font-size: 24px;
     }
+}

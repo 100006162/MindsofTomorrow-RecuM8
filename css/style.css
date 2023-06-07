@@ -24,7 +24,7 @@ body{
     display: flex;
 }
 /* Estilo de la segunda fila */
-.fl{
+.style-colum{
     display: block;
     clear: both;
 }
@@ -51,7 +51,7 @@ body{
     padding: 100px;
 }
 /* Estilo de las columnas que se dividen en dos */
-.column-i{
+.column-image{
     width: 50%;
     float: left;
     height: 100%;
@@ -59,7 +59,7 @@ body{
     text-align: center;
 }
 /* Estilo del Footer */
-.fotp{
+.footer-a{
     width: 50%;
     float: left;
 }
@@ -73,7 +73,7 @@ footer{
 }
 
 /* Añadimos estilo a la ultima fila */
-#fl1{
+#style-colum-2{
     background-color: blue;
     height: 100%;
     padding: 80px;
@@ -100,7 +100,7 @@ h2{
     margin: 0;
 }
 /* Añadimos estilos a los titulos b */
-.h2b{
+.h2-2{
     font-size: 80px;
 }
 /* Añadimos estilos a los titulos */
@@ -116,7 +116,7 @@ p{
     padding-left: 100px;
 }
 /* Añadimos estilos a los titulos c */
-.h2c{
+.h2-3{
     font-size: 80px;
 }
 /* Empiezan las media query */
@@ -135,7 +135,7 @@ p{
     .row {
         flex-wrap: wrap;
     }
-    .fl{
+    .style-colum{
         width: 100%;
     }
     .column-2{
@@ -148,22 +148,22 @@ p{
         padding: 30px;
         height: 100%;
     }
-    .fotp{
+    .footer-a{
         width: 100%;
         float: left;
     }
-    .column-i{
+    .column-image{
         width: 100%;
         margin: 0px;
         text-align: center;
     }
-    #fl1{
+    #style-colum-2{
         padding: 0px;
     }
-    .h2b{
+    .h2-2{
         font-size: 70px;
     }
-    .h2c{
+    .h2-3{
         font-size: 50px;
     }
     p {
